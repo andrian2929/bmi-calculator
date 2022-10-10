@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>BMI Calculator</h1>
+      <form id="form-submit" method="post">
+        <label for="weight">Berat (kg):</label>
+        <input type="number" name="weight" id="weight" />
+        <br />
+        <span
+          id="alert-weight"
+          style="display: block; font-size: 15px; margin-bottom: 20px"
+        >
+        </span>
+        <label for="height">Tinggi (cm):</label>
+        <input type="number" name="height" id="height" />
+        <br />
+        <span
+          id="alert-height"
+          style="display: block; font-size: 15px; margin-bottom: 20px"
+        >
+        </span>
+
+        <button type="submit" id="submit-button">Hitung</button>
+      </form>
+
+      <div id="card">
+        <h3 id="result"></h3>
+      </div>
+    </div>
+
+    <div class="get-in-touch">
+      <h2>Get in touch</h2>
+      <div class="social-media">
+        <a href="https://www.instagram.com/andrian_r7"
+          ><i class="fa-brands fa-instagram"> </i> Instagram</a
+        >
+        <a href="https://github.com/andrian2929"
+          ><i class="fa-brands fa-github"> </i> Github</a
+        >
+        <a href="https://www.linkedin.com/in/andrian-ramadan-710560147/"
+          ><i class="fa-brands fa-linkedin"> </i> LinkedIn</a
+        >
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/58537ee19d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
